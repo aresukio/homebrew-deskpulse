@@ -1,14 +1,13 @@
 class Deskpulse < Formula
   desc "Work-presence helper agent for macOS"
-  homepage "https://github.com/aresukio/deskpulse"
-  url "https://github.com/julianiaccopucci/deskpulse/archive/refs/tags/14.tar.gz"
+  homepage "https://github.com/aresukio/homebrew-deskpulse"
+  url "https://github.com/aresukio/homebrew-deskpulse/releases/download/14/deskpulse-macos-arm64.tar.gz"
   sha256 "e8c0604431cfe8cbe7466062020f9dee2eb8fd0af5bf65d2af3ce159f714fe04"
   license "MIT"
 
   depends_on :macos
 
   def install
-    system "swiftc", "DeskPulseAgent.swift", "-O", "-o", "deskpulse-agent"
     bin.install "deskpulse-agent"
     bin.install "deskpulse"
   end
