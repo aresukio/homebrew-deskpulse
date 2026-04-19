@@ -1,8 +1,8 @@
 class Deskpulse < Formula
   desc "Work-presence helper agent for macOS"
   homepage "https://github.com/aresukio/deskpulse"
-  url "https://github.com/julianiaccopucci/deskpulse/archive/refs/tags/13.tar.gz"
-  sha256 "58fb987ffdb4a810f831772159469ad77a864fde1051de17af4692ce1b83c51a"
+  url "https://github.com/julianiaccopucci/deskpulse/archive/refs/tags/14.tar.gz"
+  sha256 "e8c0604431cfe8cbe7466062020f9dee2eb8fd0af5bf65d2af3ce159f714fe04"
   license "MIT"
 
   depends_on :macos
